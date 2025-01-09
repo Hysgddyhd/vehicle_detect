@@ -10,8 +10,8 @@ client = InferenceHTTPClient(
     api_key="HHOQQa2OcXtsGddANg0W"
 )
  
-source_dir =  "/home/typer/Pictures/car_pics/Bicycle_11-7-2024/"
-img="Bicycle_4.jpg"
+source_dir =  "C:/Users/Typer/Desktop/robot/python/material/"
+img="mpv-shot0003.jpg"
 
 result = client.run_workflow(
     workspace_name="robot-application",
